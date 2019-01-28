@@ -4,6 +4,7 @@
 ## 02. installing sogou input
 ## 03. installing Google Chrome
 ## 04. changing the sources.list for Ubuntu
+## 05. installing bioconda
 
 ## 01. installing Ubuntu system
 
@@ -45,6 +46,19 @@
 ### saving
     sudo apt-get update
     sudo apt-get upgrade
+
+## 05. installing bioconda
+
+### Download in the official site and install in under the official instruction.
+
+### changing the source:
+
+    conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+    conda config --set show_channel_urls yes
+#### confirm the change:
+    
+    conda info
+
 
 
 
