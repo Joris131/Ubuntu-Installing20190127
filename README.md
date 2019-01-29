@@ -8,6 +8,8 @@
 ## 06. conda environment management
 ## 07. conda source changing and update
 ## 08. add the bioconda channel in conda
+## 09. install nesoni in conda python=2.7 environment
+## 10. install bbmap in conda python=2.7 environment
 
 ## 01. installing Ubuntu system
 
@@ -110,3 +112,8 @@
     conda config --add channels bioconda
     conda config --add channels conda-forge
     
+## 09. install nesoni in conda python=2.7 environment    
+    pip install -I nesoni    
+    
+## 10. install bbmap in conda python=2.7 environment    
+    conda install bbmap
