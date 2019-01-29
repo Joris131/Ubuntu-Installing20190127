@@ -72,7 +72,7 @@
     
 ### To activate an environment on Mac/Linux:
 
-    source activate myenv
+    conda activate myenv
     
 ### To deactivate an environment on Mac/Linux:
 
