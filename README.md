@@ -76,7 +76,7 @@
     
 ### To deactivate an environment on Mac/Linux:
 
-    source deactivate
+    conda deactivate
     
 ### Checking currently existing environments, Viewing a list of your environments:
 
