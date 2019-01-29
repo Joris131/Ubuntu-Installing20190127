@@ -1,4 +1,4 @@
-# Ubuntu-Installing20190127
+# Ubuntu-Graduation Project-Since 20190127
 
 ## 01. installing Ubuntu system
 ## 02. installing sogou input
