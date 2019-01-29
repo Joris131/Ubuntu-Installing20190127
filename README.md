@@ -63,4 +63,28 @@
 ## 06. conda setup and environment management
 ### To create an environment:
 
+    conda create --name myenv
+    
+### To create an environment with a specific version of Python:
 
+    conda create -n myenv python=X.
+    
+### To activate an environment on Mac/Linux:
+
+    source activate myenv
+    
+### To deactivate an environment on Mac/Linux:
+
+    source deactivate
+    
+### Checking currently existing environments, Viewing a list of your environments:
+
+    conda info --envs    
+#### Or
+    conda env list
+    
+### Removing an environment:
+
+    conda remove --name myenv --all
+    
+    
