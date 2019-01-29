@@ -5,6 +5,7 @@
 ## 03. installing Google Chrome
 ## 04. changing the sources.list for Ubuntu
 ## 05. installing bioconda
+## 06. conda setup and environment management
 
 ## 01. installing Ubuntu system
 
@@ -59,6 +60,7 @@
     
     conda info
 
-
+## 06. conda setup and environment management
+### To create an environment:
 
 
