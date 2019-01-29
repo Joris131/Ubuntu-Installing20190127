@@ -4,9 +4,10 @@
 ## 02. installing sogou input
 ## 03. installing Google Chrome
 ## 04. changing the sources.list for Ubuntu
-## 05. installing bioconda
+## 05. installing anconda3
 ## 06. conda environment management
 ## 07. conda source changing and update
+## 08. add the bioconda channel in conda
 
 ## 01. installing Ubuntu system
 
@@ -49,7 +50,7 @@
     sudo apt-get update
     sudo apt-get upgrade
 
-## 05. installing bioconda
+## 05. installing anaconda3
 
 ### Download in the official site and install in under the official instruction.
 
@@ -102,4 +103,10 @@
 #### checking source
     cat .condarc
     
+## 08. add the bioconda channel in conda
+### After installing conda you will need to add the bioconda channel as well as the other channels bioconda depends on. It is important to add them in this order so that the priority is set correctly (that is, conda-forge is highest priority). The conda-forge channel contains many general-purpose packages not already found in the defaults channel.
+
+    conda config --add channels defaults
+    conda config --add channels bioconda
+    conda config --add channels conda-forge
     
