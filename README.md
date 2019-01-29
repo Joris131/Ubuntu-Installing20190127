@@ -5,7 +5,8 @@
 ## 03. installing Google Chrome
 ## 04. changing the sources.list for Ubuntu
 ## 05. installing bioconda
-## 06. conda setup and environment management
+## 06. conda environment management
+## 07. conda source changing and update
 
 ## 01. installing Ubuntu system
 
@@ -60,7 +61,7 @@
     
     conda info
 
-## 06. conda setup and environment management
+## 06. conda environment management
 ### To create an environment:
 
     conda create --name myenv
@@ -86,5 +87,19 @@
 ### Removing an environment:
 
     conda remove --name myenv --all
+    
+## 07. conda source changing and update
+### conda update
+
+    conda update --all
+    conda update conda
+    conda update anaconda
+    
+### adding source
+
+    conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+    conda config --set show_channel_urls yes
+#### checking source
+    cat .condarc
     
     
