@@ -10,6 +10,7 @@
 ## 08. add the bioconda channel in conda
 ## 09. install nesoni in conda python=2.7 environment
 ## 10. install bbmap in conda python=2.7 environment
+## 11. install humann2 in conda python=2.7 environment
 
 ## 01. installing Ubuntu system
 
@@ -117,3 +118,12 @@
     
 ## 10. install bbmap in conda python=2.7 environment    
     conda install bbmap
+    
+## 11. install humann2 in conda python=2.7 environment
+    conda install humann2
+    
+### Metaphlan2 will be installed automatically, which can be started with:
+    metaphlan2.py
+    
+    
+    
